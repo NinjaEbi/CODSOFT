@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="darkModeToggle" class="theme-button">🌙</button>
+
+  <div class="container">
+    <h2>Welcome back, <span id="name"></span>! 🎉</h2>
+    <p>This is your dashboard.</p>
+    <a href="index.html">Logout</a>
+  </div>
+
+  <script>
+    document.getElementById("name").textContent = localStorage.getItem("signupName") || "User";
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

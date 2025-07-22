@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Success</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="darkModeToggle" class="theme-button">🌙</button>
+
+  <div class="container">
+    <h2>🎉 Signup Successful!</h2>
+    <p>Welcome, <span id="userName"></span> 👋</p>
+    <a href="login.html">Go to Login</a>
+  </div>
+
+  <script>
+    document.getElementById("userName").textContent = localStorage.getItem("signupName") || "User";
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

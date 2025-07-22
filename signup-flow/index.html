@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="darkModeToggle" class="theme-button">🌙</button>
+
+  <div class="container">
+    <h2>Create Account</h2>
+    <form id="signupForm">
+      <input type="text" name="name" placeholder="Full Name" />
+      <input type="email" name="email" placeholder="Email Address" />
+      <div class="password-container">
+        <input type="password" name="password" id="passwordInput" placeholder="Password" />
+      </div>
+      <button type="submit">Sign Up</button>
+      <p id="error" class="error hidden">Please fill out all fields.</p>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
