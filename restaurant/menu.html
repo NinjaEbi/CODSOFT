@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie's Delight | Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Foodie's Delight</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle">🌙</button>
+
+  </header>
+
+  <!-- Categories -->
+  <section class="categories">
+    <button class="active" data-category="all">All</button>
+    <button data-category="starters">Starters</button>
+    <button data-category="main-course">Main Course</button>
+    <button data-category="desserts">Desserts</button>
+    <button data-category="drinks">Drinks</button>
+  </section>
+
+  <!-- Menu Items -->
+  <section class="menu-items">
+
+    <!-- STARTERS -->
+    <div class="item" data-category="starters">
+      <img src="https://th.bing.com/th/id/OIP.s7UJNsKvUJkEsY-TxoTcYgHaE7?w=276&h=184&c=7&r=0&o=7&pid=1.7&rm=3" alt="Bruschetta">
+      <h3>Bruschetta</h3>
+      <p>Grilled bread with fresh tomato and basil.</p>
+      <span>$6.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="starters">
+      <img src="https://th.bing.com/th/id/OIP.cpI8J1Ahq-7uKB4vfNUm9wHaHH?w=186&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Garlic Bread">
+      <h3>Garlic Bread</h3>
+      <p>Oven-baked bread with garlic butter and herbs.</p>
+      <span>$4.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="starters">
+      <img src="https://th.bing.com/th/id/OIP.RzlXNVagPw30-1kEg5YAlgHaF8?w=215&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Spring Rolls">
+      <h3>Spring Rolls</h3>
+      <p>Crispy rolls filled with seasonal vegetables.</p>
+      <span>$5.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="starters">
+      <img src="https://th.bing.com/th/id/OIP.uR9vnNRvXtJ2ZqPM-aY_iwHaLH?w=186&h=279&c=7&r=0&o=5&pid=1.7" alt="Cheese Balls">
+      <h3>Cheese Balls</h3>
+      <p>Golden fried cheese bites with herbs.</p>
+      <span>$7.49</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- MAIN COURSE -->
+    <div class="item" data-category="main-course">
+      <img src="https://th.bing.com/th/id/OIP.LzbvMmKys54tSxgfX53_RQHaLH?w=186&h=279&c=7&r=0&o=7&pid=1.7&rm=3" alt="Alfredo Pasta">
+      <h3>Alfredo Pasta</h3>
+      <p>Creamy fettuccine with Alfredo sauce and parmesan.</p>
+      <span>$12.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="main-course">
+      <img src="https://th.bing.com/th/id/OIP.OnOUlsWd2s_dn1qltfPWGwHaFj?w=186&h=140&c=7&r=0&o=7&pid=1.7&rm=3" alt="Margherita Pizza">
+      <h3>Margherita Pizza</h3>
+      <p>Classic pizza with mozzarella and fresh basil.</p>
+      <span>$10.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="main-course">
+      <img src="https://hips.hearstapps.com/hmg-prod/images/grilled-chicken-horizontal-1532030541.jpg" alt="Grilled Chicken">
+      <h3>Grilled Chicken</h3>
+      <p>Juicy grilled chicken with herbs and spices.</p>
+      <span>$14.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="main-course">
+      <img src="https://www.zeelskitchen.com/wp-content/uploads/2015/07/Vegtable_Biryani_14.jpg" alt="Veg Biryani">
+      <h3>Veg Biryani</h3>
+      <p>Fragrant rice with aromatic spices and vegetables.</p>
+      <span>$11.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- DESSERTS -->
+    <div class="item" data-category="desserts">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80" alt="Chocolate Cake">
+      <h3>Chocolate Cake</h3>
+      <p>Rich and moist chocolate layered cake.</p>
+      <span>$6.49</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="desserts">
+      <img src="https://img.freepik.com/premium-photo/vanilla-chocolate-ice-cream_1091270-34127.jpg" alt="Ice Cream">
+      <h3>Ice Cream</h3>
+      <p>Vanilla, chocolate, and strawberry scoops.</p>
+      <span>$4.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="desserts">
+      <img src="https://th.bing.com/th/id/OIP.4BC18x5jR45NfF_u33jUwQHaE8?w=294&h=196&c=7&r=0&o=7&pid=1.7&rm=3" alt="Cheesecake">
+      <h3>Cheesecake</h3>
+      <p>Classic creamy cheesecake with graham crust.</p>
+      <span>$5.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="desserts">
+      <img src="https://www.aromaticessence.co/wp-content/uploads/2018/09/5A015CBB-F43D-41E9-8972-11B9FCB5537D.jpeg" alt="Gulab Jamun">
+      <h3>Gulab Jamun</h3>
+      <p>Soft milk dumplings soaked in sugar syrup.</p>
+      <span>$3.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- DRINKS -->
+    <div class="item" data-category="drinks">
+      <img src="https://img.freepik.com/premium-photo/natural-lemonade-with-mint-fresh-fruit-wooden-table_158023-2875.jpg" alt="Lemonade">
+      <h3>Lemonade</h3>
+      <p>Refreshing fresh-squeezed lemonade.</p>
+      <span>$2.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="drinks">
+      <img src="https://wpcluster.dctdigital.com/myweekly/wp-content/uploads/sites/9/2018/06/iStock-814684194-coffee-x-1024x682.jpg" alt="Coffee">
+      <h3>Coffee</h3>
+      <p>Hot brewed coffee with rich aroma.</p>
+      <span>$2.49</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="drinks">
+      <img src="https://simply-delicious-food.com/wp-content/uploads/2019/02/irish-coffee-milkshake-3-367x550.jpg" alt="Milkshake">
+      <h3>Milkshake</h3>
+      <p>Thick creamy milkshake in multiple flavors.</p>
+      <span>$3.99</span>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item" data-category="drinks">
+      <img src="https://th.bing.com/th/id/OIP.XJ-PSOgTYaJq7KDk-wBqzAHaHa?w=184&h=184&c=7&r=0&o=7&pid=1.7&rm=3" alt="Mojito">
+      <h3>Mojito</h3>
+      <p>Minty fresh non-alcoholic mojito drink.</p>
+      <span>$3.49</span>
+      <button>Add to Cart</button>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
